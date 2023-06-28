@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Candy Details</title>
+  <link rel="stylesheet" href="/stylesheets/styles.css">
+
+</head>
+<body>
+  <h1>Candy Details</h1>
+  <h2><%= candy.name %></h2>
+  <p>Flavor: <%= candy.flavor %></p>
+
+<form action="/candies/<%= candy.id %>?_method=DELETE" method="POST">
+    <button type="submit">Delete Candy</button>
+  </form>
+
+ 
+</body>
+</html>

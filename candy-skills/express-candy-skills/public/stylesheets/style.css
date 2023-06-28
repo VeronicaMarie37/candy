@@ -1,0 +1,71 @@
+/* public/styles/styles.css */
+
+/* Index Page */
+.candies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.candy-card {
+  width: 250px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+}
+
+.candy-card h3 {
+  margin: 0;
+}
+
+.candy-card p {
+  margin: 10px 0;
+}
+
+/* Show Page */
+.candy-details {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+}
+
+/* New Page */
+.new-candy-form {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+}
+
+.new-candy-form input[type="text"],
+.new-candy-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.new-candy-form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Error Page */
+.error-message {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #f00;
+  border-radius: 5px;
+  background-color: #ffebee;
+  color: #f00;
+}
